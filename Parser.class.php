@@ -9,5 +9,6 @@ class Parser{
         $base_url = 'yandex.ru';
         $pause_time = 2;
         //$retry = 0;
+        //$retry = 0; //
     }
 }
