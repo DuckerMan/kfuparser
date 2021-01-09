@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="154b9020-0ac0-42da-a81b-642644b34095" name="my.regvds.com">
+        <fileTransfer accessType="SFTP" host="185.253.35.10" port="22" sshConfigId="932395fa-5211-480a-819e-7b59318a7f81" sshConfig="root@185.253.35.10:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="65c626f2-cdaa-4aa6-be99-0f852d5b4e41" name="regvds.com" url="http://regvds.com">
+        <fileTransfer host="regvds.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
