@@ -1,7 +1,7 @@
 <?php
 
 class Parser{
-    public simple_html_dom $pars;
+    public $pars;
 
     public function __construct(){
         require 'simple_html_dom.php';
