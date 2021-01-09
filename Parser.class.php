@@ -2,7 +2,7 @@
 
 class Parser{
     public function __construct(){
-        require 'simple_html_dom.php';
+        require __DIR__ . '/simple_html_dom.php';
         $this->pars = new simple_html_dom();
 
     }
