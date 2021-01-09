@@ -1,8 +1,6 @@
 <?php
 
 class Parser{
-    public $pars;
-
     public function __construct(){
         require 'simple_html_dom.php';
         $this->pars = new simple_html_dom();
