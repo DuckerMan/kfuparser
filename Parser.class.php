@@ -62,12 +62,12 @@ class Parser{
         return $response;
     }
 
-    /**
+    /** Конвертирует unixtimestamp в время которое использует КФУ
      * @param $time
      * @return string
      */
     public function unix_to_kfu($time){
-        return strtoupper(date("D")) . ", " . strtoupper(date("d-M-Y")) . " " . date("h:i:s") . " GMT";
+         return strtoupper(date("D", $time) . ", " . date("d-M-Y", $time) . " " . date("h:i:s", $time) . " GMT");
     }
 
     /**
