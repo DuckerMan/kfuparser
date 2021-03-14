@@ -1,7 +1,20 @@
+# Документация
+
+### Инициализация
+```php
 $parser = new Parser();
+```
 
-Получить токен: $token = $parser->auth('LOGIN', 'PASS');
+### Функции:
 
-Спарсить баллы: $stats = $parser->parse_menu_7('токен');
+**Получение токена:** ```php
+$token = $parser->auth('логин', 'пароль');```
 
-Спарсить информацию о студенте: $info = $parser->parse_student('токен');
+
+
+**Получение баллов:** ```php
+$stats = $parser->parse_menu_7('токен');```
+
+
+**Получение информации о студенте:** ```php
+$info = $parser->parse_student('токен'); ```
